@@ -21,3 +21,5 @@ app.get('/hotel/:id', (req, res)=>{
 app.listen(port, ()=>{
     console.log('On the port:', port);
 });
+
+module.export = app;
